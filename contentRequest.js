@@ -3,6 +3,7 @@ var divs = document.querySelectorAll('div.content');
 $.ajax({
 		type:'GET',
 		url:'content.xml',
+		dataType:'xml',
 	
 		success: function(data) {
 			console.log(data);
