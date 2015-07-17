@@ -1,0 +1,38 @@
+.active {
+	display:block;
+}
+.content.visually-hidden {
+	display:none;
+}
+#navigator ul li {
+	display:inline-block;
+	list-style-type: none;
+}
+button{
+	height: 50px;
+	width:100px;
+	display: block;
+	margin-top: 10px;
+	background:#000033;
+	outline: 0;
+	border:0;
+	color:#B28F00;
+	font-size: 100%;
+	font-weight:800;
+	border-radius: 10px;
+	box-shadow: 0 5px 0 0;
+}
+button:active {
+	background: #CCCCE0;
+}
+button.clicked {
+	background: #CCCCE0;
+}
+.content {
+	background: #000033;
+	height: 100em;
+	border-radius: 10px;
+	color:#B28F00;
+	padding:50px;
+	box-shadow: 0 0 0 5px;
+}
