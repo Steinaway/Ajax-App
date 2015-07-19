@@ -1,4 +1,4 @@
-ar array = document.querySelectorAll('button.nav');
+var array = document.querySelectorAll('button.nav');
 for(var i = 0; i < array.length;i++){
 	array[i].addEventListener('click',function() {
 		var active = document.querySelector('.content.active');
